@@ -1,8 +1,4 @@
-<script setup>
-import Facebook from 'vue-material-design-icons/Facebook.vue';
-import Twitter from 'vue-material-design-icons/Twitter.vue';
-import Instagram from 'vue-material-design-icons/Instagram.vue';
-</script>
+<script setup></script>
 <template>
   <div class="links">
     <RouterLink to="/">Help</RouterLink>
@@ -10,9 +6,9 @@ import Instagram from 'vue-material-design-icons/Instagram.vue';
     <RouterLink to="/">Privacy & Terms</RouterLink>
   </div>
   <div class="icons">
-    <Facebook size="30" />
-    <Twitter size="30" />
-    <Instagram size="30" />
+    <i class="mdi mdi-facebook" />
+    <i class="mdi mdi-twitter" />
+    <i class="mdi mdi-instagram" />
   </div>
 </template>
 <style scoped>
@@ -35,5 +31,6 @@ import Instagram from 'vue-material-design-icons/Instagram.vue';
   display: flex;
   gap: 4rem;
   align-items: center;
+  font-size: 2.2rem;
 }
 </style>
